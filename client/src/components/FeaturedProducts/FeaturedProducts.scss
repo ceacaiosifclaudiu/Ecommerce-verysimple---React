@@ -1,0 +1,34 @@
+.featuredProducts{
+    margin-inline: auto;
+    margin-block: 100px;
+    max-width: 1430px;
+    width: 90%;
+
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        gap: 50px;
+
+        h1{
+            flex: 2s;
+            text-transform: capitalize;
+        }
+    
+        p{
+            flex: 3;
+            color: var(--icon);
+        }
+    }
+
+    .bottom{
+        display: flex;
+        padding-left: 300px;
+        gap: 50px;
+    }
+    
+}
+
+
+

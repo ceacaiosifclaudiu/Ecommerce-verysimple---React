@@ -1,0 +1,58 @@
+.footer{
+     margin: 100px 200px 20px;
+
+     .top{
+        display: flex;
+        gap: 250px;
+        
+        
+     }
+
+     .item{
+        
+        display: flex;
+        flex-direction: column;
+        text-align: justify; //Bigger space bettew words
+        font-size: 15px;
+        gap: 10px;
+
+        h1{
+            font-size: 18px;
+            font-weight: 500;
+            color: var(--footerTitleColor);
+        }
+
+        span{
+            color: gray;
+        }
+     }
+
+     .bottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+
+        .left{
+            display: flex;
+            align-items: center;
+
+            .logo{
+                color: var(--backgroundCart);
+                font-size: 24px;
+                font-weight: bold;
+            }
+
+            .copyright{
+                margin-left: 20px;
+                font-size: 12px;
+                color: gray;
+            }
+        }
+        .right{
+            color: gray;
+            font-weight: bold;
+
+        }
+     }
+}
